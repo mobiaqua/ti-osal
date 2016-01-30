@@ -120,7 +120,7 @@ XDCARGS= \
 
 
 # Set XDCPATH to contain necessary repositories.
-XDCPATH =
+XDCPATH = ${BIOS_INSTALL_DIR}/packages
 
 # Set your XDC executable command
 XDC = $(XDC_INSTALL_DIR)/xdc XDCARGS="$(XDCARGS)" XDCBUILDCFG=./osal.bld
