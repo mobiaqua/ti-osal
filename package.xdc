@@ -38,15 +38,8 @@
 
 /* This "requires" list describes what packages to import into this bundle */
 
-requires ti.sdo.xdcruntime.linux;
-
-requires linuxdist;
-requires qnxdist;
-requires cstubs.posix;
 requires ti.sdo.osal;
 requires ti.sdo.tools.build;
-
-//requires ti.sdo.xdcruntime.examples.simple;
 
 /*!
  *  ======== osal ========
