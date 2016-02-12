@@ -83,6 +83,7 @@ ti.targets.arm.elf.M3 ?=
 # gnu.targets.arm.GCArmv5T="/path/to/rootdir;LONGNAME=arm-none-gcc"
 gnu.targets.arm.GCArmv5T ?=
 gnu.targets.arm.M3 ?=
+gnu.targets.arm.M4 ?=
 
 #
 # Set XDCOPTIONS.  Use -v for a verbose build.
